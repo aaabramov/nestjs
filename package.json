@@ -56,7 +56,8 @@
     "travis": "yarn install && yarn build",
     "build:ci": "yarn install && yarn build",
     "test:ci": "jest --coverage --reporters=jest-junit --coverageReporters=cobertura --coverageReporters=html",
-    "lint": "eslint --ext ts ."
+    "lint": "eslint --ext ts .",
+    "pgcli": "pgcli postgresql://postgres:password@localhost:33432"
   },
   "husky": {
     "hooks": {
